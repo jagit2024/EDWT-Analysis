@@ -9,7 +9,7 @@ Healthcare analytics pipeline using medallion architecture to analyze ED patient
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 End-to-end data engineering project demonstrating:
 
@@ -23,14 +23,14 @@ End-to-end data engineering project demonstrating:
 
 ## 💼 Business Impact
 
-- 📊 **Identified peak hours** with 94-minute average wait times (10 AM - 2 PM)
-- 📈 **Analyzed 300 patient visits** across 5 acuity levels
-- 🎯 **Provided staffing recommendations** to reduce wait times 15-20%
-- ✅ **Achieved 100% data quality** pass rate across all validation rules
+- **Identified peak hours** with 94-minute average wait times (10 AM - 2 PM)
+- **Analyzed 300 patient visits** across 5 acuity levels
+- **Provided staffing recommendations** to reduce wait times 15-20%
+- **Achieved 100% data quality** pass rate across all validation rules
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Data Flow Pipeline
 
@@ -42,9 +42,9 @@ CSV (300 records) → Bronze (raw) → Silver (cleaned) → Gold (analytics) →
 
 | Layer | Table/View | Purpose | Key Features |
 |-------|-----------|---------|--------------|
-| **🥉 Bronze** | `bronze_ed_visits` | Raw data ingestion | Immutable source, audit trail |
-| **🥈 Silver** | `silver_ed_visits` | Cleaned & validated | 12 quality rules, derived fields |
-| **🥇 Gold** | `gold_ed_analytics` | Analytics-ready | HIPAA-compliant, business logic |
+| **Bronze** | `bronze_ed_visits` | Raw data ingestion | Immutable source, audit trail |
+| **Silver** | `silver_ed_visits` | Cleaned & validated | 12 quality rules, derived fields |
+| **Gold** | `gold_ed_analytics` | Analytics-ready | HIPAA-compliant, business logic |
 
 ### Technology Stack
 
@@ -179,12 +179,12 @@ python python/load_to_sql.py
 
 Implemented **12 automated validation rules**:
 
-- ✅ Text standardization (UPPER/TRIM on all fields)
-- ✅ Range validation (acuity 1-5, wait time 0-300 minutes)
-- ✅ Null handling with rejection logic
-- ✅ Outlier capping (wait times exceeding 300 minutes)
-- ✅ Date/time consistency checks
-- ✅ Referential integrity validation
+- Text standardization (UPPER/TRIM on all fields)
+- Range validation (acuity 1-5, wait time 0-300 minutes)
+- Null handling with rejection logic
+- Outlier capping (wait times exceeding 300 minutes)
+- Date/time consistency checks
+- Referential integrity validation
 
 **Result**: 100% pass rate across all validation rules
 
@@ -192,10 +192,10 @@ Implemented **12 automated validation rules**:
 
 Safe Harbor de-identification method applied:
 
-- 🔒 Patient IDs replaced with anonymous GUIDs (`NEWID()`)
-- 🔒 Timestamps aggregated to hour-level (no exact times)
-- 🔒 Age groups instead of exact ages
-- 🔒 Zero PHI (Protected Health Information) in Gold analytics layer
+- Patient IDs replaced with anonymous GUIDs (`NEWID()`)
+- Timestamps aggregated to hour-level (no exact times)
+- Age groups instead of exact ages
+- Zero PHI (Protected Health Information) in Gold analytics layer
 
 ### Power BI Dashboard Metrics
 
@@ -286,34 +286,34 @@ ORDER BY avg_wait_time DESC;
 ## 🎓 Skills Demonstrated
 
 ### Data Engineering
-- ✅ Medallion architecture implementation (Bronze/Silver/Gold)
-- ✅ ETL pipeline design with data quality validations
-- ✅ Data modeling and schema design
-- ✅ Healthcare data standards (Emergency Severity Index)
+- Medallion architecture implementation (Bronze/Silver/Gold)
+- ETL pipeline design with data quality validations
+- Data modeling and schema design
+- Healthcare data standards (Emergency Severity Index)
 
 ### SQL Proficiency
-- ✅ Advanced T-SQL (CTEs, window functions, stored procedures)
-- ✅ Database design and normalization
-- ✅ Performance optimization techniques
-- ✅ Data quality framework implementation
+- Advanced T-SQL (CTEs, window functions, stored procedures)
+- Database design and normalization
+- Performance optimization techniques
+- Data quality framework implementation
 
 ### Healthcare Domain
-- ✅ HIPAA compliance and PHI de-identification
-- ✅ Emergency Severity Index (ESI) acuity framework
-- ✅ Healthcare operational metrics and KPIs
-- ✅ Clinical workflow understanding
+- HIPAA compliance and PHI de-identification
+- Emergency Severity Index (ESI) acuity framework
+- Healthcare operational metrics and KPIs
+- Clinical workflow understanding
 
 ### Python Programming
-- ✅ Synthetic data generation (pandas, numpy)
-- ✅ Database connectivity (pyodbc)
-- ✅ Data manipulation and transformation
-- ✅ ETL automation scripting
+- Synthetic data generation (pandas, numpy)
+- Database connectivity (pyodbc)
+- Data manipulation and transformation
+- ETL automation scripting
 
 ### Business Intelligence
-- ✅ Power BI dashboard development
-- ✅ Data visualization best practices
-- ✅ KPI definition and tracking
-- ✅ Executive-level reporting
+- Power BI dashboard development
+- Data visualization best practices
+- KPI definition and tracking
+- Executive-level reporting
 
 ---
 
@@ -351,14 +351,14 @@ This project uses synthetic data and is for portfolio demonstration purposes onl
 
 ---
 
-## 👤 Author
+## Author
 
 **Justin O. Ajuogu**  
 Data Engineer | Chicago, IL  
 
-📧 Email: jajuogu1@gmail.com  
-💼 LinkedIn: www.linkedin.com/in/justin-ajuogu  
-🐙 GitHub: jagit2024
+Email: jajuogu1@gmail.com  
+LinkedIn: www.linkedin.com/in/justin-ajuogu  
+GitHub: jagit2024
 
 ---
 
