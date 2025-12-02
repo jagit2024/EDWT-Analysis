@@ -102,6 +102,24 @@ EDWT-Analysis/
 
 ## 🚀 Quick Start Guide
 
+### Option 1: Master Setup (Fastest)
+```sql
+-- In SQL Server Management Studio:
+-- Open and execute: sql/master_setup.sql
+-- This creates the entire database in one step
+```
+
+### Option 2: Step-by-Step (For Learning)
+```sql
+-- Run DDL scripts in order:
+1. sql/ddl/01_create_database.sql
+2. sql/ddl/02_create_bronze_layer.sql
+3. sql/ddl/03_create_silver_layer.sql
+4. sql/ddl/04_create_reference_tables.sql
+5. sql/ddl/05_create_gold_layer.sql
+```
+Both methods create the same result—use whichever you prefer!
+
 ### Step 1: Generate Synthetic Data
 ```bash
 python python/generate_ed_data.py
