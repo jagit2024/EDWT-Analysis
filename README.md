@@ -21,7 +21,7 @@ End-to-end data engineering project demonstrating:
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 - **Identified peak hours** with 94-minute average wait times (10 AM - 2 PM)
 - **Analyzed 300 patient visits** across 5 acuity levels
@@ -55,7 +55,7 @@ CSV (300 records) → Bronze (raw) → Silver (cleaned) → Gold (analytics) →
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 EDWT-Analysis/
@@ -100,7 +100,7 @@ EDWT-Analysis/
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Option 1: Master Setup (Fastest)
 ```sql
@@ -173,7 +173,7 @@ python python/load_to_sql.py
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
 ### Data Quality Framework
 
@@ -209,7 +209,7 @@ Safe Harbor de-identification method applied:
 
 ---
 
-## 📊 Key Insights & Findings
+## Key Insights & Findings
 
 ### Operational Bottlenecks Identified
 
@@ -231,7 +231,7 @@ Safe Harbor de-identification method applied:
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 Complete technical documentation available in `docs/` folder:
 
@@ -241,7 +241,7 @@ Complete technical documentation available in `docs/` folder:
 
 ---
 
-## 💻 Sample SQL Queries
+## Sample SQL Queries
 
 ### Average Wait Time by Hour
 ```sql
@@ -283,7 +283,7 @@ ORDER BY avg_wait_time DESC;
 
 ---
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
 ### Data Engineering
 - Medallion architecture implementation (Bronze/Silver/Gold)
@@ -317,7 +317,7 @@ ORDER BY avg_wait_time DESC;
 
 ---
 
-## 👥 Stakeholders & Use Cases
+## Stakeholders & Use Cases
 
 ### Primary Stakeholders
 - **ED Medical Director**: Operational decision-making and clinical workflow optimization
@@ -333,7 +333,7 @@ ORDER BY avg_wait_time DESC;
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -345,7 +345,7 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project uses synthetic data and is for portfolio demonstration purposes only.
 
@@ -362,7 +362,7 @@ GitHub: jagit2024
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Emergency Severity Index (ESI) Implementation Handbook
 - Healthcare Information and Management Systems Society (HIMSS)
@@ -371,7 +371,7 @@ GitHub: jagit2024
 
 ---
 
-## 📞 Questions?
+##  Questions?
 
 Feel free to reach out if you have questions about this project or want to discuss data engineering opportunities!
 
