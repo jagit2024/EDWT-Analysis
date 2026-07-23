@@ -102,14 +102,14 @@ EDWT-Analysis/
 
 ##  Quick Start Guide
 
-### Option 1: Master Setup (Fastest)
+### Option 1: Master Setup
 ```sql
 -- In SQL Server Management Studio:
 -- Open and execute: sql/master_setup.sql
 -- This creates the entire database in one step
 ```
 
-### Option 2: Step-by-Step (For Learning)
+### Option 2: Step-by-Step
 ```sql
 -- Run DDL scripts in order:
 1. sql/ddl/01_create_database.sql
