@@ -11,10 +11,12 @@ EXECUTION: Run AFTER generate_ed_data.py
 
 import pandas as pd
 import pyodbc
+import os
 
 # Read the CSV file
 print("Reading CSV file...")
-df = pd.read_csv('ed_visits_synthetic.csv')
+csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Data', 'ed_visits_synthetic.csv')
+df = pd.read_csv(csv_path)
 
 # Clean the data
 print("Cleaning data...")
